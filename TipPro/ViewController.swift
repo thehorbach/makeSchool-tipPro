@@ -60,6 +60,10 @@ class ViewController: UIViewController {
         
         totalFld.text = String(format: "%.2f", totalAmount)
     }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
 }
 
 
